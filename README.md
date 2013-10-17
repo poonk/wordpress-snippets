@@ -1,10 +1,23 @@
-A collection of WordPress snippets
-==================================
+WordPress snippet collection
+============================
 
-Includes:
+A collection of useful WordPress snippets from the daily use of a Web Developer.
 
-* Mask e-mail addresses in the content against Crawler (`helpers/mask-emails.php`)
+Common snippets
+---------------
 
-To be added:
+* Basic codesnippets needed for nearly every theme ([`functions.php`](functions.php))
+* Mask e-mail addresses in the content against Crawler ([`helper/mask-emails.php`](helper/mask-emails.php))
+* Remove all WordPress wp_head() actions ([`helper/wordpress.php`](helper/wordpress.php))
 
-* Removing all actions from wp_head() and wp_footer()
+Plugin snippets
+----------------
+
+* **Contact Form 7**: Snippets to remove styles and scripts  ([`helper/commentform7.php`](helper/commentform7.php))
+* **Next Gen Gallery**: Snippets to remove styles and scripts ([`helper/nextgen.php`](helper/nextgen.php))
+* **WPML**: Snippets to get current language and to remove styles and scripts([`helper/wpml.php`](helper/wpml.php))
+
+
+### Usage
+
+Simply insert the snippets you need into the `functions.php` of your WordPress Theme.
