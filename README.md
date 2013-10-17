@@ -1,7 +1,10 @@
 A collection of WordPress snippets
 ==================================
 
-includes:
+Includes:
 
-[ ] Removing all actions from wp_head() and wp_footer()
-[x] Mask e-mail addresses in the content against Crawler (`helpers/mask-emails.php`)
+* Mask e-mail addresses in the content against Crawler (`helpers/mask-emails.php`)
+
+To be added:
+
+* Removing all actions from wp_head() and wp_footer()
